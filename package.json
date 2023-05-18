@@ -19,7 +19,7 @@
     "test": "jest",
     "build": "rm -rf lib && rm -rf es && tsc --build && tsc --module ES2015 --outDir es",
     "docs": "typedoc src/index.ts",
-    "release": "npm run build && npm run docs && npm publish --registry https://www.npmjs.com"
+    "release": "npm run build && npm run docs && npm publish --registry https://registry.npmjs.org"
   },
   "keywords": [
     "utils"
