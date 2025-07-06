@@ -5,7 +5,7 @@ type ResType = boolean | number | void
 
 /**
  * 轮询的hook
- * @param fn 轮询的副作用函数, 返回的是数字那就是通知写一次轮询的时间
+ * @param fn 轮询的副作用函数, 返回的是数字那就是通知下一次轮询的时间
  * @param delay 间隔的时间
  * @param immediate 立即运行，初始化的时候有效
  * @returns 
